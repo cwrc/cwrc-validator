@@ -5,7 +5,7 @@
 
 
 ######## Stage #1: build
-FROM maven:3.6-openjdk-11 AS build_stage
+FROM maven:3.8-openjdk-11 AS build_stage
 
 ARG APP_SRC=/app
 
